@@ -1,0 +1,18 @@
+.tab-button {
+  box-sizing: border-box;
+  font-family: "montserrat";
+  font-weight: 600;
+  letter-spacing: 1px;
+  background-color: #424242dd;
+  border: none;
+  padding: 8px 18px;
+  width: 180px;
+  border-radius: 5px;
+  font-size: 18px;
+  color: #fff;
+  transition: 0.4s;
+}
+.tab-button:hover {
+  cursor: pointer;
+  background-color: #424242;
+}

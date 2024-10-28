@@ -1,0 +1,11 @@
+.section-content {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.section-content span {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  gap: 20px;
+}

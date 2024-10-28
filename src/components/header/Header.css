@@ -1,0 +1,105 @@
+header {
+  display: flex;
+  width: 100%;
+  padding: 0px 14px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  margin: 0;
+  border-bottom: 1px solid #424242;
+  position: sticky;
+  top: 0%;
+  background-color: #fff;
+  z-index: 200;
+}
+header > span {
+  display: flex;
+  flex-direction: column;
+}
+header > span > h2 {
+  margin: 0;
+  padding: 0;
+}
+header > span > p {
+  position: relative;
+  top: -15px;
+  left: 70px;
+  padding: 0;
+  margin: 0;
+  display: inline-block;
+  transform: rotate(-20deg);
+}
+p strong {
+  color: rgb(193, 0, 0);
+}
+.title {
+  font-family: Arial, sans-serif;
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #fcc40f;
+  text-shadow: -2px 2px 0px #3333335f;
+  display: inline-block;
+  padding: 0;
+  margin: 0;
+}
+.subtitle {
+  font-size: 0.7rem;
+  color: #666;
+  padding: 0;
+  margin: 0;
+}
+
+nav {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+}
+.header-link {
+  height: 87px;
+  min-width: 128px;
+  font-size: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  transition: 0.2s;
+}
+.header-link:hover,
+.active {
+  background-color: var(--hover-color);
+}
+.header-link span p,
+.header-link span svg {
+  margin: 5px;
+  color: #464646;
+}
+.header-link:hover span p,
+.header-link:hover span svg,
+.active span p,
+.active span svg {
+  color: #fff;
+}
+.header-link span svg {
+  font-size: 24px;
+}
+.header-link::after {
+  position: relative;
+  content: "";
+  width: 128px;
+  background-color: var(--hover-color);
+  height: 6px;
+  top: 12px;
+}
+.header-link:first-child::after {
+  border-bottom-left-radius: 8px;
+}
+
+.header-link:last-child::after {
+  border-bottom-right-radius: 8px;
+}
+a,
+a:visited {
+  text-decoration: none;
+  color: black;
+}
