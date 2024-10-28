@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/ISTmon/static/css/main.b55dc622.css",
+    "main.js": "/ISTmon/static/js/main.b9e281d9.js",
+    "static/js/453.4c5f8e3d.chunk.js": "/ISTmon/static/js/453.4c5f8e3d.chunk.js",
+    "index.html": "/ISTmon/index.html",
+    "main.b55dc622.css.map": "/ISTmon/static/css/main.b55dc622.css.map",
+    "main.b9e281d9.js.map": "/ISTmon/static/js/main.b9e281d9.js.map",
+    "453.4c5f8e3d.chunk.js.map": "/ISTmon/static/js/453.4c5f8e3d.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b55dc622.css",
+    "static/js/main.b9e281d9.js"
+  ]
+}
